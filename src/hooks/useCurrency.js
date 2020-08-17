@@ -35,7 +35,7 @@ const useCurrency = (label, initialState, optionsCurrencies) => {
       >
       <option value="">--- SELECCIONE --</option>
         {optionsCurrencies.map(option => (
-          <option key={option.code} value={option.name}>{option.name}</option>
+          <option key={option.code} value={option.code}>{option.name}</option>
         ))}
       </Select>
     </>
